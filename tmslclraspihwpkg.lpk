@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="TMSLCLRaspiHWPkg"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="tmssoftware.com bvba"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="TMS LCL Raspberry Pi HW components"/>
+    <License Value="Components are free for non-commercial use.
+Commercial use requires a license purchase.
+Code or parts of code cannot be redistributed in any form by other companies, organisations, persons, parties than tmssoftware. com bvba.
+Source code can only be distributed from http://www.tmssoftware.com 
+Source code extensions, modifications, suggestions can be sent to info@tmssoftware.com. 
+tmssoftware.com bvba is responsible for integrating all extensions, modifications into the distribution. "/>
+    <Version Major="1"/>
+    <Files Count="11">
+      <Item1>
+        <Filename Value="tmslclafadc12b.pas"/>
+        <UnitName Value="TMSLCLAFADC12b"/>
+      </Item1>
+      <Item2>
+        <Filename Value="tmslclafdac12b.pas"/>
+        <UnitName Value="tmslclafdac12b"/>
+      </Item2>
+      <Item3>
+        <Filename Value="tmslclafdispl128x32.pas"/>
+        <UnitName Value="TMSLCLAFDISPL128x32"/>
+      </Item3>
+      <Item4>
+        <Filename Value="tmslclafq7l.pas"/>
+        <UnitName Value="TMSLCLAFQ7L"/>
+      </Item4>
+      <Item5>
+        <Filename Value="tmslclraspifonts.pas"/>
+        <UnitName Value="TMSLCLRaspiFonts"/>
+      </Item5>
+      <Item6>
+        <Filename Value="tmslclraspihw.pas"/>
+        <UnitName Value="TMSLCLRaspiHW"/>
+      </Item6>
+      <Item7>
+        <Filename Value="tmslclraspihwreg.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="TMSLCLRaspiHWReg"/>
+      </Item7>
+      <Item8>
+        <Filename Value="tmslclafdispl16x2.pas"/>
+        <UnitName Value="TMSLCLAFDISPL16x2"/>
+      </Item8>
+      <Item9>
+        <Filename Value="tmslclaf8x8l.pas"/>
+        <UnitName Value="TMSLCLAF8x8L"/>
+      </Item9>
+      <Item10>
+        <Filename Value="tmslclaffram8kspi.pas"/>
+        <UnitName Value="TMSLCLAFFRAM8kSPI"/>
+      </Item10>
+      <Item11>
+        <Filename Value="tmslclafioexpander.pas"/>
+        <UnitName Value="TMSLCLAFIOExpander"/>
+      </Item11>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

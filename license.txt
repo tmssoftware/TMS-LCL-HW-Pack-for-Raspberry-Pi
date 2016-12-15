@@ -1,0 +1,27 @@
+{---------------------------------------------------------------------------}
+{ TMS LCL HW Pack for Raspberry Pi                                          }
+{ written by TMS Software                                                   }
+{            copyright © 2015 - 2016                                        }
+{            Email : info@tmssoftware.com                                   }
+{            Web : http://www.tmssoftware.com                               }
+{---------------------------------------------------------------------------}
+
+License agreement:
+
+TMS LCL HW Pack is open-source. The source code is given as-is. 
+The author TMS software is not responsible for any possible damage done due to the use of this code.
+The complete source code remains intellectual property of the author and 
+may not be re-distributed, published, given or sold in any form as such by other persons or parties.
+No parts of the source code can be included in any other project source, component source 
+or application source without written authorization of the author.
+
+TMS LCL HW Pack is free for non-commercial use. For commercial use, please contact us for
+licensing conditions. 
+
+The software is maintained, developed and supported by TMS Software. TMS Software will be the only
+party distributing the software. We welcome all contributions, suggestions, improvements. All contributions
+can be provided to TMS software. 
+
+
+
+
